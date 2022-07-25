@@ -1,5 +1,5 @@
 01: [basics](java_se/basics/)
-	01_a: [Primitives](java_se/basics/primitives)
+	01_a: [Primitives](java_se/basics/primitives.java)
 	01_b: Variables
 	01_c: Operators
 	01_d: Control Flow

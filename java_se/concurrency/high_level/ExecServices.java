@@ -20,7 +20,7 @@ public class ExecServices {
 	private ExecutorService exec;
 	private ExecutorService exec2;
 	/*
-	 * (::) Use different executors for different services.
+	 * (::) Use different executors (pools) for different services.
 	 * 
 	 * (+) Allows for proper thread count allocation (ie. heavy services get more
 	 * threads, light services get fewer threads).

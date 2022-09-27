@@ -51,7 +51,7 @@ public class Generics<T1, T2> {
 	}
 
 	public static void staticMethod() {
-		// Cannot reference T1, T2, T3.
+		// Cannot reference T1, T2.
 	}
 
 	public static void main(String[] args) {
@@ -59,7 +59,7 @@ public class Generics<T1, T2> {
 		Generics<ArrayList<Integer>, Number> gg2 = new Generics<>(12);
 		/**
 		 * @type_arguments <Integer, String>, aka Actual Type Parameter. type_args
-		 *                 cannot be primitives.
+		 *                 cannot be primitives (wrapper classes are ok).
 		 * @parameterized_types instances with type_args. ex:
 		 *                      Generics<ArrayList<Integer>, Number>.
 		 */

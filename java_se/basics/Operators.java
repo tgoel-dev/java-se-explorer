@@ -17,7 +17,7 @@ public class Operators {
 
 		String[] assignment = {"="};
 		
-		String[] arithmetic = { "+", "-", "*", "/", "%" };
+		String[] arithmetic = { "+", "-", "*", "/", "%", "++", "--" };
 		/*
 		 * Rules: 
 		 * 1. Follows BODMAS 

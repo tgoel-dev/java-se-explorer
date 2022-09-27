@@ -1,5 +1,8 @@
 package solutions;
 
+/**
+ * Reverse the integer provided, while maintaining the sign.
+ */
 public class ReverseInteger {
 	
 	public int reverseInt(int x) {

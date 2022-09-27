@@ -83,7 +83,7 @@ public class Serialization implements Serializable {
 			Date dateTime = (Date) in.readObject();
 
 			int recoverableData = obj.criticalData; // Data recovered.
-			int staticData = obj.staticVar; // Data not recovered. 
+			int staticData = obj.staticVar; 		// Data not recovered. 
 			int nonRecoverableData = obj.nonCriticalData; // Data not recovered; returns default value;
 
 		} catch (IOException e) {

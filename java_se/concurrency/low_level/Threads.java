@@ -31,6 +31,8 @@ public class Threads {
 			 * advancing to the next line of code.
 			 */
 			T2.join();
+			
+			// executes after T2 is dead.
 
 		} catch (InterruptedException e) {
 			e.printStackTrace();

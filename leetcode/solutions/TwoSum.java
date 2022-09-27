@@ -1,5 +1,8 @@
 package solutions;
 
+/**
+ * Check if the sum of any two numbers within int[] is equal to the target.
+ */
 public class TwoSum {
 
 	public int[] twoSum(int[] nums, int target) {

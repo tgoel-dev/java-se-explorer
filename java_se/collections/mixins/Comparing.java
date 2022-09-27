@@ -39,10 +39,10 @@ public class Comparing {
 		@Override
 		public int compareTo(Example arg0) {
 			/*
-			 * a.compareTo(b) method returns an int. 
-			 * b > a = -ve int;
-			 * b == a = 0;
-			 * b < a = +ve int; 
+			 * a.compareTo(b) method returns an int (a - b). 
+			 * (a < b)  = -ve int;
+			 * (a == b) = 0;
+			 * (a > b)  = +ve int; 
 			 */
 
 			return this.getCategory().compareTo(arg0.getCategory());

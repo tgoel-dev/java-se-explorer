@@ -29,8 +29,8 @@ public class BoundedTypeParam<T extends List<Number>> {
 		/* OO */ BoundedTypeParam<List<Number>> numbers = new BoundedTypeParam<>(new ArrayList<Number>()); 		
 		/* OO */ BoundedTypeParam<ArrayList<Number>> numbers2 = new BoundedTypeParam<>(new ArrayList<Number>()); 
 
-		/* XX */ // BoundedTypeParam<ArrayList<Integer>> ints = new BoundedTypeParam<>(new ArrayList<Integer>(); 
-
+		/* XX */ // BoundedTypeParam<ArrayList<Integer>> ints = new BoundedTypeParam<>(new ArrayList<Integer>()); 
+		
 		/*
 		 * INVARIANCE: subclasses cannot be used for defined type_args.
 		 * 

@@ -15,7 +15,7 @@ public class JUnitTesting {
 	 * Test Driven Development (TDD): a development approach where tests are written
 	 * prior to any code. The tests specify and validate the code.
 	 * 
-	 * (+) Better detects bugs, broken code, and improves teamwork.
+	 * (+) Better detects bugs, broken code, and improves collaboration.
 	 * 
 	 * Design Convention: create a test class for each individual class/action.
 	 * Naming Convention: ClassTest.class

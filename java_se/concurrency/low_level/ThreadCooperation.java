@@ -6,6 +6,7 @@ package concurrency.low_level;
  */
 public class ThreadCooperation {
 
+	// APPROACH 1
 	public volatile double result = 0;
 	public boolean workCompleted = false;
 
@@ -16,7 +17,8 @@ public class ThreadCooperation {
 
 		while (true) {
 			// Recurringly execute code that relies on a separate thread executing.
-			result = Math.random() * 10;
+			
+			result = Math.random() * 10;	// temp replacement for actual code
 
 			if (result > requiredResult) { // Checks to see if the code executed correctly.
 				break;
@@ -24,6 +26,7 @@ public class ThreadCooperation {
 		}
 	}
 
+	// APPROACH 2
 	public void approach2() {
 		// Using wait() and notify() and sync blocks (better, not ideal):
 		waitThread();
@@ -36,9 +39,9 @@ public class ThreadCooperation {
 				// Code executes.
 				System.out.println("Running code...");
 
-				System.out.println("Waiting...");
-
 				while (!workCompleted) {
+					
+					System.out.println("Waiting...");
 					this.wait();
 					/*
 					 * Halts the current sync block, putting the thread in a WAITING state, and
@@ -82,6 +85,7 @@ public class ThreadCooperation {
 		}
 	}
 
+	// APPROACH 3
 	public void approach3() {
 		// Using the Executor framework. High-level concurrency.
 	}

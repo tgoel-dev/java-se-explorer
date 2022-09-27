@@ -12,8 +12,9 @@
 	02_c: Abstract Classes
 	02_d: Interfaces
 	02_e: Interface Types
-	02_f: Polymorphism
-	02_g: Inheritance Prevention
+    02_f: Inheritence (SubClassA)
+	02_g: Polymorphism
+	02_h: Inheritance Prevention
 	
 03: [TDD](java_se/tdd/)
 	03_a: JUnit Testing
@@ -42,11 +43,10 @@
 		05_d_f: Heap Sort
 		05_d_g: Other Sorts
 
---------------------------------------------
 00: Eclipse
 	00_a: Eclipse Shortcuts
 	00_b: Reflection
---------------------------------------------
+
 		
 06: IO
 	06_a: Console IO

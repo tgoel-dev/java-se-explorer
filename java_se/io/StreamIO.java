@@ -3,6 +3,8 @@ package io;
 import java.io.File;
 
 /**
+ * Stream IO, File class.
+ * 
  * Streams are used to read/write data from a file in Java.
  */
 public class StreamIO {
@@ -18,16 +20,17 @@ public class StreamIO {
 	 */
 
 	/*
-	 * The File class simply represents the path of the file, and not the contents
-	 * of the file. It can used by many of the streams.
+	 * The File class simply represents a reference to the file, and not the
+	 * contents of the file. It can used by many of the streams.
 	 */
 	@SuppressWarnings("unused")
 	public static void fileClass(String filename) {
 		try {
+
 			File f = new File(filename);
 
 			String path = f.getAbsolutePath();
-			String sepr = File.separator; // returns \ (Windows) or / (MacOS/Linux)
+			String sepr = File.separator; // returns "\" (Windows) or "/" (MacOS/Linux)
 			// Allows for platform independence.
 
 			// Checking permissions:
@@ -41,7 +44,7 @@ public class StreamIO {
 			f.isDirectory();
 			f.list(); // ls -l; in case of files, returns null.
 
-			// Craeting/Deleting files/folders (requires try-catch):
+			// Creating/Deleting files/folders (requires try-catch):
 			(new File("test")).mkdir(); // Creates a folder named test
 			// (new File("test.txt")).createNewFile(); // Creates a new file.
 			f.renameTo(new File("new_dir/renamed.txt"));

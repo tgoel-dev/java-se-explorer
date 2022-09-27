@@ -8,7 +8,7 @@ public class Prevention {
 	/*
 	 * Inheritance can be prevented via two methods:
 	 * 
-	 * 1. a private constructor. 2. a final declaration in class declaration.
+	 * 1. a private constructor. 2. using "final" in class declaration.
 	 */
 
 	// 1.

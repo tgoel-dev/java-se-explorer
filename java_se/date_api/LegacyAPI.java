@@ -41,8 +41,8 @@ public class LegacyAPI {
 		improvedDate.after(new GregorianCalendar(2022, 5, 2)); // returns boolean.
 		improvedDate.before(new GregorianCalendar(2022, 9, 2));
 
-		improvedDate.add(9, Calendar.MONTH); // Adds 5 months to the date.
-		improvedDate.roll(9, Calendar.MONTH); // Adds 5 months, does not affect the year.
+		improvedDate.add(9, Calendar.MONTH); 	// Adds 9 months to the date.
+		improvedDate.roll(9, Calendar.MONTH); 	// Adds 9 months, does not affect the year.
 
 		// Used to represent Time Zone for the date.
 		TimeZone tz = TimeZone.getTimeZone("Asia/Kolkata");

@@ -12,7 +12,7 @@ public class SubClassA extends AbstractClassA implements InterfaceA {
 	 * A class must implement all the unimplemented methods of its super-class, or
 	 * declare itself an Abstract class and leave it to its own sub-class(es).
 	 * 
-	 * By default, each Class extends the Object class.
+	 * By default, all Classes extend the Object class.
 	 */
 
 	@Override

@@ -54,7 +54,7 @@ public class Synchronization {
 
 	public synchronized int getvar() {
 		return this.mutable;
-		// "synchronized" recommended as mutable is accessed within a sync block.
+		// "synchronized" recommended as var:mutable is accessed within a sync block.
 	}
 
 	public void bestPractices() {

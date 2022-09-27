@@ -14,7 +14,7 @@ public class DimensionalArrays {
 		System.out.println("Initialized array: " + Arrays.toString(init));
 
 		int size = 5;
-		int[] arrayOfInts = new int[size];// common
+		int[] arrayOfInts = new int[size]; // common
 
 		arrayOfInts[0] = 10; // indexing begins at 0 and goes upto (size - 1)
 		arrayOfInts[1] = 8;

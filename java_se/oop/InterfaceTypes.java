@@ -11,7 +11,8 @@ public interface InterfaceTypes {
 	 * ex: RandomAccess, Serializable.
 	 * (+) esp. useful with instanceof use.
 	 * 
-	 * 3. Functional Interface - an interface with a single abstract method.
+	 * 3. Functional Interface - an interface with a single abstract method. 
+	 * A requirement for Functional Programming (discussed later). 
 	 * 
 	 * // Prefer using standard functional interfaces, instead of custom ones.
 	 */

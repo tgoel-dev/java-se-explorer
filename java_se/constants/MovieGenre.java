@@ -9,12 +9,13 @@ public enum MovieGenre {
 	 * Enums can have state and behavior, as well as a pvt constructor. The pvt
 	 * constructor is used by the constants to store a particular variable.
 	 */
+	
+	private int ageRestriction;
 
 	private MovieGenre(int ageRestriction) {
 		this.ageRestriction = ageRestriction;
 	}
 
-	private int ageRestriction;
 
 	public int getAgeRestriction() {
 		return this.ageRestriction;
@@ -35,7 +36,7 @@ public enum MovieGenre {
 			break;
 		case BIOGRAPHY: // code
 			break;
-		default: // code
+		default: System.out.println("case unavailable");
 			break;
 		}
 	}

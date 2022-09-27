@@ -20,7 +20,7 @@ public class GenericMethods {
 	
 	// Other examples of generic methods:
 	
-	<T extends Serializable, T2> void doSomething(T input) {	}
+	<T1 extends Serializable, T2> void doSomething(T1 input) {	}
 	
 	<T1, T2> void doSomething2() {  }
 	

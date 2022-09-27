@@ -39,12 +39,11 @@ public class Lambdas {
 			}
 		});
 
+		
 		// Descending order with Lambda Expressions:
 		Collections.sort(list, (Integer i1, Integer i2) -> {
 			return i2 - i1;
 		});
-
-		Collections.shuffle(list);
 
 		// Further simplifying lambda expressions.
 		Collections.sort(list, (i1, i2) -> i2 - i1); // param_type and return statement inferred by compiler.

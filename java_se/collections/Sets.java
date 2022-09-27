@@ -22,6 +22,8 @@ public class Sets {
 	/*
 	 * To maintain the uniqueness of an <Object> set, overriding the hashCode() and 
 	 * equals() method is required.
+	 * 
+	 * (::) Auto-generate the hashCode(). 
 	 */
 
 	public static void hashSet() {

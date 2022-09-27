@@ -71,9 +71,9 @@ public class Wildcard<T> {
 	/*
 	 * When to use wildcards (Get/Put Principle):
 	 * 
-	 * 1. Parameterized type produces (Gets) data --> <? extends >
+	 * 1. Parameterized type produces (GET) data --> <? extends >
 	 * 2. Parameterized type produces data, and data type irrelevant --> <?>
-	 * 3. Parameterized type consumes (Puts) data --> <? super >
+	 * 3. Parameterized type consumes (PUT/POST) data --> <? super >
 	 * 
 	 * 4. Parameterized type produces and consumes data --> exact match, do not use ?.
 	 */

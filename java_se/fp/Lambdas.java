@@ -27,9 +27,7 @@ public class Lambdas {
 	 * long as they are final or effectively final (remain unchanged).
 	 */
 
-	static void simplifyingCode() {
-
-		ArrayList<Integer> list = new ArrayList<>();
+	static void simplifyingCode(ArrayList<Integer> list) {
 
 		// Descending order with Anon class:
 		Collections.sort(list, new Comparator<>() {
@@ -60,6 +58,7 @@ public class Lambdas {
 
 		Predicate<String> filtration = s -> s.length() < 10;
 		// test(s) checks if object passes criteria; used for filtering.
+		// Predicate here refers to Discrete Structures.
 		
 		Function<Integer, String> conversion = i -> i.toString();
 		// apply(i) converts object type i to s; used for transforming data.
